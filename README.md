@@ -49,7 +49,9 @@ http://localhost:3000/api-docs/
 
 ### 🧪 Run Unit Test
 
-เรียก Test ผ่าน Terminal
+(ต้อง run server ไปด้วยเพราะมี Test GET API)
+
+เรียก Test ผ่าน Terminal 
 ```bash
 cd option-two
 pnpm test
