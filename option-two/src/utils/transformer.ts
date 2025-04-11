@@ -1,15 +1,5 @@
 import { User } from "../types/user";
-
-interface Transformed {
-  [department: string]: {
-    male: number;
-    female: number;
-    ageRange: string;
-    hair: Record<string, number>;
-    addressUser: Record<string, string>;
-  };
-}
-
+import { Transformed } from "../types/Transformed"
 export function transformUsers(users: User[]): Transformed {
   const result: Transformed = {};
 
